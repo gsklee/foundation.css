@@ -4,7 +4,8 @@
   "description": "",
   "author": "G. Kay Lee <balancetraveller+github@gmail.com>",
   "scripts": {
-    "setup": "npm cache clean && npm install"
+    "setup": "npm cache clean && npm install",
+    "build": "gulp build:styles"
   },
   "main": "",
   "repository": {
