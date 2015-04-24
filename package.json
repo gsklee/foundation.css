@@ -7,7 +7,6 @@
     "setup": "npm cache clean && npm install",
     "build": "rm -rf build && gulp build:styles"
   },
-  "main": "",
   "repository": {
     "type": "git",
     "url": "https://github.com/gsklee/foundation.css"
