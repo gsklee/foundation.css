@@ -1,11 +1,11 @@
 {
   "name": "foundation.css",
-  "version": "0.0.0",
+  "version": "5.5.1",
   "description": "",
   "author": "G. Kay Lee <balancetraveller+github@gmail.com>",
   "scripts": {
     "setup": "npm cache clean && npm install",
-    "build": "gulp build:styles"
+    "build": "rm -rf build && gulp build:styles"
   },
   "main": "",
   "repository": {
@@ -18,7 +18,8 @@
     "babel": "^5.1.11",
     "gulp": "^3.8.11",
     "gulp-load-plugins": "^0.10.0",
-    "gulp-sass": "^1.3.3"
+    "gulp-sass": "^1.3.3",
+    "gulp-replace": "^0.5.3"
   },
   "engines": {
     "iojs": ">=1.8.0"
