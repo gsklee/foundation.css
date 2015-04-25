@@ -1,7 +1,7 @@
 {
   "name": "foundation.css",
   "version": "5.5.1",
-  "description": "",
+  "description": "Compiled CSS of the latest version of ZURB Foundation.",
   "author": "G. Kay Lee <balancetraveller+github@gmail.com>",
   "scripts": {
     "setup": "npm cache clean && npm install",
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "https://github.com/gsklee/foundation.css"
   },
-  "keywords": [],
+  "keywords": [
+    "foundation",
+    "zurb",
+    "css"
+  ],
   "dependencies": {},
   "devDependencies": {
     "babel": "^5.1.11",
